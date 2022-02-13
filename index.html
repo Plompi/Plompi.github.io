@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="/assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
 
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Portfolio website complete</title>
+        <title>Portfolio</title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -38,10 +38,15 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hey👋<br>I'am <span class="home__title-color">Philipp</span>,<br> a Developer</h1>
+                    <h1 class="home__title">Hey👋<br>I'am <span class="home__title-color">Philipp</span>,<br>a
+                        <span class="typer" id="main" data-words="Student,Developer,Designer,Creator" data-colors="#0D1730" data-delay="100" data-deleteDelay="5000"></span>
+                    </h1>
 
                     <a href="#work" class="button">My work</a>
                 </div>
+
+                
+
 
                 <div class="home__social">
                 </div>
@@ -157,5 +162,6 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+        <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
     </body>
 </html>
